@@ -1,0 +1,9 @@
+#game { background-image: url("img/texture.jpg"); width: 500px; height: 300px;  }
+#game .tank { position: absolute; left: 100px; top: 200px; border: none; margin: 0; padding: 0; width: 60px; }
+#game .explosion { position: absolute; width: 48px; height: 48px; }
+#game .shot { position: absolute; width: 60px; height: 60px; }
+
+
+#x, #y, #z { position: fixed; }
+#y { top: 30px; }
+#z { top: 50px; }

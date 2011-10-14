@@ -1,0 +1,83 @@
+{
+  "personalData": {
+    "name": "Dawid de Rosier",
+    "email": "david.de.rosier@javascript.com.pl",
+    "phone": "+48 516 517 271",
+    "address": {
+      "street": "Swidwie Lesniczowka 1",
+      "city": "Sepolno Krajenskie",
+      "state": "Kujawsko-Pomorskie",
+      "country": "Poland"
+    },
+    "dateOfBirth": "27 April 1977",
+    "actualTimezone": "GMT+1"
+  },
+  
+  "education": [
+    {
+      "school": "Technical University of Szczecin",
+      "country": "Poland",
+      "period": { "from": "October 2001", "to": "November 2003" },
+      "description": "PhD studies in parallel computing (discontinued)"
+    },
+    {
+      "school": "Technical University of Szczecin",
+      "country": "Poland",
+      "period": { "from": "October 1996", "to": "June 2001" },
+      "description": "Master degree in software engineering"
+    }
+  ],
+  
+  "workExperience": [
+  	{
+  	  "name": "Dawid de Rosier Innovations",
+  	  "period": { "from": "May 2009", "to": "now" },
+  	  "mainCustomers": [ "Nokia", "Finantix", "JSGeeks", "Plan Solutions", "Agile Ways", "Releasing Force" ],
+  	  "description": "freelancer; long and short-term contracts in software design, development and coaching",
+  	  "roles": ["JavaScript developer", "JavaScript coach", "JavaScript consultant", "system architect"]
+  	},
+  	{
+  	  "name": "Finantix, Italy",
+  	  "period": { "from": "November 2003", "to": "March 2009" },
+  	  "mainCustomers": [ "DBS, Scotland", "Bank of Georgia", "Vilniaus Bankas, Lithuania", "First National Bank, South Africa", 
+  	    "ABN Amro, Netherlands", "Fidelity, China", "CapGemini, India", "Standard Chartered Bank, Singapore" ],
+  	  "roles": ["J2EE developer", "BML developer", "JavaScript evangelist", "software designer", "software architect", "coach"],
+  	  "description": "International software solutions provider for banking sector"
+  	},
+  	{
+  	  "name": "BLStream, Poland/Finland",
+  	  "period": { "from": "August 2001", "to": "November 2003" },
+  	  "mainCustomers": [ "Wartsila, Finland", "Northstream, Sweden", "Muza, Poland" ],
+  	  "roles": [ "J2EE developer", "frontend developer", "team leader" ]
+  	},
+  	{
+  	  "name": "Software Developer's Journal",
+  	  "period": { "from": "January 2006", "to": "now" },
+  	  "description": "Most recognizable magazine for software developers in Poland",
+  	  "roles": ["author", "reviewer"]
+  	}
+  ],
+  
+  "skills": {
+    "programmingLanguages": {
+      "JavaScript": {
+        "level": "expert",
+        "keywords": ["NodeJS", "RingoJS", "PhoneGap", "Prototype", "Script.aculo.us", "jQuery", "jQueryUI", "jQuery Mobile", 
+          "Rhino", "Scoket.io", "ECMAScript 5", "QUnit", "JS TestDrive"],
+        "interests": ["server-side programming", "performance", "pure JS programming", "ECMAScript 5", "V8", "TDD in JS"]
+      },
+      "Java": {
+        "level": "professional",
+        "keywords": ["JEE", "Spring", "Hibernate", "JPF", "GWT", "DWR", "Rhino"],
+        "interests": ["Rhino"]
+      },
+      "other": ["Groovy", "Scala", "Scheme", "Self", "BML", "C++", "Erlang"]
+    },
+    
+    "databases": ["CouchDB", "mySQL", "Oracle", "HSQL"],
+    "applicationServers": ["IBM WebSphere", "Apache Tomcat", "Jetty"],
+    "methodologies": ["Scrum", "MDA", "TDD", "CI"],
+    "foreignLanguages": ["Polish", "English", "Russian", "Swahili"]
+  }
+  
+}
