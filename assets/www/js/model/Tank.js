@@ -10,7 +10,6 @@ tanks.model.Tank = (function(){
         _speed= 0;
 	
 	
-	
         /*
     (function(){
             var mp = Math.PI / 180;

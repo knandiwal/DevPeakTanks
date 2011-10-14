@@ -16,20 +16,13 @@ tanks.logic.game = (function(){
 				_cos[i] = Math.cos(i*mp);
 			}
 		})();	
-
-	// place the tank on the screen
-	tanks.events.register( "onRenderTank", "RENDER_TANK" );
-
-	
 	
 	// register Events
 	tanks.events.listenOnce(document, tanks.events.APP_READY, function(){
-
-		// render tank
-		tanks.events.trigger( document, tanks.events.RENDER_TANK);
 		
 		navigator.accelerometer.watchAcceleration(function(e){
-			console.log('X: ' + e.x + ' / Y: ' + e.y + " / Z: " + e.z);
+			// place the tank on the screen
+			tanks.ui.game.renderTank(e.x, e.y);
 		}, function(){}, {frequency: 250});
 		
 	});
